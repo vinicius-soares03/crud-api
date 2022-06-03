@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "usuarios",
+  "info": {
+    "singularName": "usuario",
+    "pluralName": "usuarios",
+    "displayName": "Usuario",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nome": {
+      "type": "string"
+    },
+    "Sobrenome": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    },
+    "Endereco": {
+      "type": "string"
+    },
+    "UF": {
+      "type": "string"
+    },
+    "Cidade": {
+      "type": "string"
+    },
+    "Cep": {
+      "type": "string"
+    },
+    "CPF": {
+      "type": "string"
+    }
+  }
+}
